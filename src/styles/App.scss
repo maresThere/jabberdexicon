@@ -1,12 +1,18 @@
 body {
-  margin: 50px;
-  font-size: 18px;
-}
-
-form {
+  background-color: darkgray;
   display: flex;
-  flex-direction: column;
-  width: 300px;
-  height: 200px;
-  margin: 10px;
+
+  .App {
+    margin: 50px;
+    font-size: 18px;
+    background-color: darkgray;
+    display: flex;
+    align-content: center;
+  }
+
+  h1 {
+    font-size: 30px;
+    align-items: center;
+  }
+
 }
